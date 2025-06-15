@@ -35,10 +35,3 @@ class Restaurant:
         Método do objeto para mudar o status negando o antigo valor.
         '''
         self._is_active = not self._is_active
-
-
-testRestaurant = Restaurant('praça', 'Categoria')
-testRestaurant.change_state()
-testRestaurant2 = Restaurant('praça2', 'Categoria2')
-
-Restaurant.list()
